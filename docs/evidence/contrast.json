@@ -1,0 +1,38 @@
+[
+  {
+    "selector": ".intro",
+    "color": "rgb(88, 103, 93)",
+    "background": "rgb(245, 246, 240)",
+    "contrast": 5.500281387073301
+  },
+  {
+    "selector": ".test-notice p",
+    "color": "rgb(88, 103, 93)",
+    "background": "rgb(245, 246, 240)",
+    "contrast": 5.500281387073301
+  },
+  {
+    "selector": ".post-panel .hint",
+    "color": "rgb(88, 103, 93)",
+    "background": "rgb(237, 243, 227)",
+    "contrast": 5.274639174505689
+  },
+  {
+    "selector": ".primary",
+    "color": "rgb(245, 255, 231)",
+    "background": "rgb(45, 73, 57)",
+    "contrast": 9.577917550490293
+  },
+  {
+    "selector": ".task-row .task-meta",
+    "color": "rgb(88, 103, 93)",
+    "background": "rgb(255, 255, 255)",
+    "contrast": 5.977621054371171
+  },
+  {
+    "selector": ".chain-note",
+    "color": "rgb(88, 103, 93)",
+    "background": "rgb(255, 255, 255)",
+    "contrast": 5.977621054371171
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-27T07:15:47.626Z",
+  "browser": "Chromium via Playwright 1.58.2",
+  "mode": "Production export at /preview/; mocked wallet and RPC; no real transactions",
+  "exportAssets": [
+    {
+      "path": "abi/LaunchToken.json",
+      "sha256": "deb5ee058e975a7bb184396bac42244884a9e9287c4035b825b83f64740d8b4f"
+    },
+    {
+      "path": "abi/SwarmJobBoard.json",
+      "sha256": "b947006ed50f2956eb6474d807ad64526529c34dbccccbde668a95a39e75bd88"
+    },
+    {
+      "path": "assets/ccip-h_Z-PPVL.js",
+      "sha256": "9722bf7aa05c1edfc30b167878139d8313af5567cf91563395c9f8b248d66a36"
+    },
+    {
+      "path": "assets/index-D3_fOG-V.js",
+      "sha256": "8e2b36c2981763b6f4e2d024e87e8cbec9877e71a461ce45b4e51df8f337ee20"
+    },
+    {
+      "path": "assets/index-SZ9tGr3h.css",
+      "sha256": "11abbf6c80291bb182cb3f58343ec2cb3c182bb081316d3981d9ae127849dc28"
+    },
+    {
+      "path": "index.html",
+      "sha256": "9b9bce37d8b85863bc72cc228692d2c6a4a5f46f30813c3751b7ddb6a85740d4"
+    }
+  ],
+  "results": [
+    {
+      "name": "Static subpath, disconnected state, keyboard focus and no-wallet error",
+      "result": "PASS",
+      "durationMs": 514
+    },
+    {
+      "name": "Unknown chain prompts exact add-chain parameters, then switches",
+      "result": "PASS",
+      "durationMs": 593
+    },
+    {
+      "name": "Post validates input, previews value and confirms a new task",
+      "result": "PASS",
+      "durationMs": 372
+    },
+    {
+      "name": "Commit creates a persistent salt backup before signing; reload preserves it",
+      "result": "PASS",
+      "durationMs": 682
+    },
+    {
+      "name": "Wrong salt cannot restore; matching backup reveals during the window",
+      "result": "PASS",
+      "durationMs": 545
+    },
+    {
+      "name": "Revealed event list enables poster acceptance with an explicit confirmation",
+      "result": "PASS",
+      "durationMs": 549
+    },
+    {
+      "name": "Reject all, cancel, finalize, claim share and withdraw use the right entrypoints",
+      "result": "PASS",
+      "durationMs": 1551
+    },
+    {
+      "name": "Wallet rejection and failed simulation are recoverable and prevent unintended sends",
+      "result": "PASS",
+      "durationMs": 177
+    },
+    {
+      "name": "Native swap quotes without sending, uses V4 commands and slippage minimum",
+      "result": "PASS",
+      "durationMs": 228
+    },
+    {
+      "name": "Token swap requires separate token and Permit2 approvals to handoff addresses",
+      "result": "PASS",
+      "durationMs": 616
+    },
+    {
+      "name": "Token transfer, explicit allowance/revoke and delegated transfer controls",
+      "result": "PASS",
+      "durationMs": 591
+    },
+    {
+      "name": "Account/chain changes disable actions; storage access failure does not sign",
+      "result": "PASS",
+      "durationMs": 607
+    },
+    {
+      "name": "Desktop/mobile/intermediate rendering, focus, contrast and automated accessibility",
+      "result": "PASS",
+      "durationMs": 2107
+    },
+    {
+      "name": "Empty board has a useful next action",
+      "result": "PASS",
+      "durationMs": 475
+    },
+    {
+      "name": "Missing deployed code prevents transactions and exposes retry",
+      "result": "PASS",
+      "durationMs": 497
+    },
+    {
+      "name": "RPC failure disables actions; retry restores verified reads",
+      "result": "PASS",
+      "durationMs": 642
+    },
+    {
+      "name": "Tampered runtime ABI fails closed",
+      "result": "PASS",
+      "durationMs": 169
+    }
+  ]
+}

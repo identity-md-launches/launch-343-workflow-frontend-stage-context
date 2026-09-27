@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "launchId": "43c0104e-fc33-4a44-8937-bacddc6f58da",
+  "chainId": 11155111,
+  "sourceCommit": "36bdc22d134b8233a118cfa98582661d0fa9c9be",
+  "attestationHash": "2140876c4cfc7366ce8784bba2e93ba22f5e8e51872a9e4b1f72aebb9e0a1b1d",
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0xbd6b348c9ea02447f5f6af556de42647a16a3019",
+      "abiHash": "b703bd9ac8ffdbfece99f5f76839d42fef93223de76d3a50b98535efbb4c6004",
+      "abiPath": "abi/LaunchToken.json"
+    },
+    {
+      "name": "SwarmJobBoard",
+      "address": "0x27e5dbc04f2d8bbe29203df9f176f639f113ff69",
+      "abiHash": "6a36eff5e5ba67416d91e45f72e070e1d5b84c2926c80e7bb1733ce336df8e68",
+      "abiPath": "abi/SwarmJobBoard.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "abi/LaunchToken.json",
+      "sha256": "deb5ee058e975a7bb184396bac42244884a9e9287c4035b825b83f64740d8b4f"
+    },
+    {
+      "path": "abi/SwarmJobBoard.json",
+      "sha256": "b947006ed50f2956eb6474d807ad64526529c34dbccccbde668a95a39e75bd88"
+    },
+    {
+      "path": "assets/ccip-h_Z-PPVL.js",
+      "sha256": "9722bf7aa05c1edfc30b167878139d8313af5567cf91563395c9f8b248d66a36"
+    },
+    {
+      "path": "assets/index-D3_fOG-V.js",
+      "sha256": "8e2b36c2981763b6f4e2d024e87e8cbec9877e71a461ce45b4e51df8f337ee20"
+    },
+    {
+      "path": "assets/index-SZ9tGr3h.css",
+      "sha256": "11abbf6c80291bb182cb3f58343ec2cb3c182bb081316d3981d9ae127849dc28"
+    },
+    {
+      "path": "index.html",
+      "sha256": "9b9bce37d8b85863bc72cc228692d2c6a4a5f46f30813c3751b7ddb6a85740d4"
+    }
+  ],
+  "network": {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "testnet": true,
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "explorer": "https://sepolia.etherscan.io",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [
+      "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "https://www.alchemy.com/faucets/ethereum-sepolia"
+    ],
+    "uniswapV4": {
+      "poolManager": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "universalRouter": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "stateView": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "positionManager": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0xaa36a7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://sepolia.etherscan.io"
+    ]
+  },
+  "pool": {
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336",
+    "pairedCurrency": "0x0000000000000000000000000000000000000000"
+  },
+  "token": {
+    "name": "Taskboard",
+    "symbol": "TASK",
+    "contract": "LaunchToken",
+    "decimals": 18
+  },
+  "deploymentBlocks": {
+    "LaunchToken": 11791345,
+    "SwarmJobBoard": 11791345
+  }
+}

@@ -1,0 +1,30 @@
+
+> taskboard-frontend@1.0.0 test
+> tsx --test tests/*.test.ts
+
+✔ phase gates enforce all exact boundaries (1.315483ms)
+✔ poster, existing commitments and settled tasks cannot commit (0.221271ms)
+✔ cancel requires poster and zero commits, with no invented deadline gate (0.12653ms)
+✔ claim requires finalization and revealed, unclaimed submission (0.07136ms)
+✔ commitment is abi.encode, bound to sender/task/result/salt (3.906357ms)
+✔ salt uses random bytes and persists without changing on reload (1.735613ms)
+✔ storage failures prevent saving a salt (0.48571ms)
+✔ unknown chain adds exact supplied network then switches again (0.450382ms)
+✔ user rejection does not try adding a chain (0.269989ms)
+✔ pinned ABI hashes match runtime hashing (9.752949ms)
+✔ slippage rejects unsafe input and rounds minimum down (0.309522ms)
+✔ V4 swap encoding uses exact action sequence, sorted pool and minimum in TAKE_ALL (3.485767ms)
+✔ amount parsing never silently rounds a visitor input (0.644002ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 621.352147
+npm notice
+npm notice New minor version of npm available! 11.6.0 -> 11.20.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.20.0
+npm notice To update run: npm install -g npm@11.20.0
+npm notice

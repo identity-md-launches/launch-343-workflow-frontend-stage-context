@@ -1,0 +1,29 @@
+
+> taskboard-frontend@1.0.0 build
+> npm run typecheck && vite build && node scripts/export.mjs
+
+
+> taskboard-frontend@1.0.0 typecheck
+> tsc --noEmit
+
+npm notice
+npm notice New minor version of npm available! 11.6.0 -> 11.20.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.20.0
+npm notice To update run: npm install -g npm@11.20.0
+npm notice
+vite v7.1.9 building for production...
+transforming...
+✓ 428 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.87 kB │ gzip:   0.53 kB
+../dist/assets/index-SZ9tGr3h.css   14.99 kB │ gzip:   3.72 kB
+../dist/assets/ccip-h_Z-PPVL.js      2.61 kB │ gzip:   1.24 kB
+../dist/assets/index-D3_fOG-V.js   487.14 kB │ gzip: 151.52 kB
+✓ built in 2.23s
+Exported 6 assets; both pinned ABI hashes match the handoff.
+npm notice
+npm notice New minor version of npm available! 11.6.0 -> 11.20.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.20.0
+npm notice To update run: npm install -g npm@11.20.0
+npm notice

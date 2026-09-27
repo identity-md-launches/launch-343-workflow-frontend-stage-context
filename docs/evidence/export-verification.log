@@ -1,0 +1,11 @@
+
+> taskboard-frontend@1.0.0 verify
+> node scripts/verify.mjs
+
+{
+  "result": "PASS",
+  "assets": 6,
+  "exportBytes": 526564,
+  "pinnedAbis": 2,
+  "network": "exact match"
+}

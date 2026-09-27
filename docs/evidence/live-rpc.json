@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-27T07:09:12.200Z",
+  "mode": "Read-only worker checks; no signing or transactions",
+  "results": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "httpStatus": 200,
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xbd6b348c9ea02447f5f6af556de42647a16a3019",
+          "codeBytes": 1362
+        },
+        {
+          "name": "SwarmJobBoard",
+          "address": "0x27e5dbc04f2d8bbe29203df9f176f639f113ff69",
+          "codeBytes": 4775
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "httpStatus": 200,
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xbd6b348c9ea02447f5f6af556de42647a16a3019",
+          "codeBytes": 1362
+        },
+        {
+          "name": "SwarmJobBoard",
+          "address": "0x27e5dbc04f2d8bbe29203df9f176f639f113ff69",
+          "codeBytes": 4775
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "httpStatus": 200,
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xbd6b348c9ea02447f5f6af556de42647a16a3019",
+          "codeBytes": 1362
+        },
+        {
+          "name": "SwarmJobBoard",
+          "address": "0x27e5dbc04f2d8bbe29203df9f176f639f113ff69",
+          "codeBytes": 4775
+        }
+      ],
+      "result": "PASS"
+    }
+  ]
+}

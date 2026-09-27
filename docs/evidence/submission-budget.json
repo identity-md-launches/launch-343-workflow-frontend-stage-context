@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "permittedPathsOnly": true,
+  "existingTrackedFilesUnchanged": true,
+  "newFiles": 54,
+  "candidateFiles": 93,
+  "candidateRawBytes": 3764243,
+  "exportBytes": 526564,
+  "bundleBytesBeforeThisReport": 2293516,
+  "reportAndMetadataReserveBytes": 65536,
+  "bundleUpperBudgetBytes": 2359052,
+  "limitBytes": 8388608,
+  "method": "Cloned existing Git history into ignored test/scratch, copied all submission candidates, committed only that disposable snapshot, created and verified a complete --all Git bundle. The report itself is covered by a 64 KiB reserve. Scratch is not delivered.",
+  "mainCheckoutCommit": "BLOCKED: .git/index.lock cannot be created; Git metadata is read-only",
+  "dependenciesCachesArchivesIncluded": false,
+  "submodules": false
+}

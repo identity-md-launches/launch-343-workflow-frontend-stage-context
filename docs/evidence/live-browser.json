@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-27T07:17:39.072Z",
+  "mode": "Real public RPC, disconnected wallet, production export at /preview/; read-only, no transactions",
+  "result": "PASS",
+  "errors": [],
+  "failedRequests": [],
+  "chainState": "Verified ABI & contract code · block 11791783 · refreshes every 30s",
+  "stats": "TASKS POSTED\n0\nOn-chain and open to explore\nWALLET BALANCE\n— ETH\nConnect a wallet to view\nWITHDRAWABLE BALANCE\n— ETH\nCredited rewards & refunds\nWithdraw ↗",
+  "overflow": false
+}

@@ -1,0 +1,49 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-272-swarmjobboard",
+  "version": 1,
+  "launchId": "43c0104e-fc33-4a44-8937-bacddc6f58da",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Sepolia test toy only; this is not a hiring or payment service and rewards carry no off-chain obligation. TASK is the launch token; SwarmJobBoard rewards use test ETH. Both contracts have no constructor arguments and require no initialization calls. SwarmJobBoard has no owner, admin, fee or upgrade path, rejects plain ETH transfers, and pays credited rewards through withdraw(). Posters are trusted to judge fairly and may reject all submissions. Equal splitting applies only when the poster does not decide and can be diluted by sybil submitters. The pool pairs with native ETH and has no hook. The factory supplies the LP and MerkleDistributor. Policy and signed artifact linkage are handled by services; these notes grant no deployment authority.",
+    "token": {
+      "name": "Taskboard",
+      "symbol": "TASK",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "SwarmJobBoard",
+        "constructorArgs": []
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0xe96d2d15999e74942d70db68391b5cb2989c85ba3f07c202db33fce57047e287",
+      "abiHash": "b703bd9ac8ffdbfece99f5f76839d42fef93223de76d3a50b98535efbb4c6004",
+      "address": "0xbd6b348c9ea02447f5f6af556de42647a16a3019",
+      "blockNumber": 11791345,
+      "creationCodeHash": "cd682ff3aa303c889b00afc8dc7926895c085e4e60c212fc7942d43e178c78aa"
+    },
+    {
+      "name": "SwarmJobBoard",
+      "txHash": "0xe96d2d15999e74942d70db68391b5cb2989c85ba3f07c202db33fce57047e287",
+      "abiHash": "6a36eff5e5ba67416d91e45f72e070e1d5b84c2926c80e7bb1733ce336df8e68",
+      "address": "0x27e5dbc04f2d8bbe29203df9f176f639f113ff69",
+      "blockNumber": 11791345,
+      "creationCodeHash": "90ec1cd20ced24f38d57d4316e66b300bea9b414753fc4eb52756a3f86780834"
+    }
+  ],
+  "sourceCommit": "36bdc22d134b8233a118cfa98582661d0fa9c9be",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "2140876c4cfc7366ce8784bba2e93ba22f5e8e51872a9e4b1f72aebb9e0a1b1d"
+}
