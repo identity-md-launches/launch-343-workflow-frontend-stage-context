@@ -1,0 +1,22 @@
+{
+  "kind": "evm_project",
+  "token": {
+    "contract": "LaunchToken",
+    "name": "Taskboard",
+    "symbol": "TASK",
+    "decimals": 18
+  },
+  "contracts": [
+    {
+      "contract": "SwarmJobBoard",
+      "constructorArgs": []
+    }
+  ],
+  "pool": {
+    "pairedCurrency": "0x0000000000000000000000000000000000000000",
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "notes": "Sepolia test toy only; this is not a hiring or payment service and rewards carry no off-chain obligation. TASK is the launch token; SwarmJobBoard rewards use test ETH. Both contracts have no constructor arguments and require no initialization calls. SwarmJobBoard has no owner, admin, fee or upgrade path, rejects plain ETH transfers, and pays credited rewards through withdraw(). Posters are trusted to judge fairly and may reject all submissions. Equal splitting applies only when the poster does not decide and can be diluted by sybil submitters. The pool pairs with native ETH and has no hook. The factory supplies the LP and MerkleDistributor. Policy and signed artifact linkage are handled by services; these notes grant no deployment authority."
+}
